@@ -19,6 +19,7 @@
         <nav class="flex justify-between items-center py-6">
           <a href="#"><img src="./img/Logo.svg" alt="Logo" /></a>
 
+          <!-- nav list for wide screen -->
           <ul class="flex gap-12 text-xl lg:text-base md:hidden">
             <li>
               <a
@@ -57,9 +58,10 @@
             </li>
           </ul>
 
+          <!-- nav list for burger menu -->
           <ul
             id="menu"
-            class="hidden absolute left-6 right-6 top-24 flex flex-col items-center bg-lightRed"
+            class="hidden absolute left-6 right-6 top-24 flex-col items-center bg-lightRed"
           >
             <li><a href="#" class="block text-white py-4">About</a></li>
             <li><a href="#" class="block text-white py-4">Services</a></li>
@@ -78,6 +80,37 @@
         </nav>
       </div>
     </header>
+
+    <main>
+      <section id="hero">
+        <div class="container">
+          <h1
+            class="pt-24 font-black text-5xl max-w-2xl text-center mx-auto leading-snug lg:text-4xl lg:pt-16 md:text-3xl md:pt-12 md:max-w-full sm:pt-10 sm:text-2xl"
+          >
+            Grow your business online. Get. More. Leads.
+          </h1>
+          <p
+            class="mt-[18px] tracking-tight max-w-xl text-xl text-center mx-auto md:text-lg md:mt-4 sm:mt-2 sm:text-base"
+          >
+            Wanna get serious into digital marketing? Then you need leads and
+            this is where we can help you.
+          </p>
+
+          <div class="flex justify-center gap-7 sm:flex-col sm:gap-0 sm:mt-4">
+            <a
+              href="#"
+              class="iniline-block mt-6 py-[10px] px-8 shadow-customRed bg-lightRed rounded-2xl text-white text-xl -tracking-tight sm:text-center sm:mt-4 sm:text-base"
+              >Start here</a
+            >
+            <a
+              href="#"
+              class="iniline-block mt-6 py-[10px] px-8 rounded-2xl text-lightRed text-xl -tracking-tight border-2 border-lightRed sm:text-center sm:mt-4 sm:text-base"
+              >Learn More</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
 
     <script src="./js/main.js"></script>
   </body>
